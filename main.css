@@ -1,0 +1,79 @@
+body {
+	background: rgb(235, 240, 240);
+	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+main {
+	width:-webkit-max-content;
+	width:-moz-max-content;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: white;
+	padding:5px 10px 10px 10px;
+	border-radius: 3px;
+}
+
+h1 {
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+	font-weight: 200;
+}
+
+#data, #program, #console {
+	background: #F5F5F5;
+	width:350px;
+	margin: 10px 0px 10px;
+}
+
+#data td {
+	width:35px;
+	text-align:center;
+	border-left: 1px solid black;
+	display:inline-block;
+}
+
+#data td:first-child {
+	border-left:none;
+}
+
+#data hr {
+	margin:2px;
+	padding:0px;
+	border-style: solid;
+	border-bottom: none;
+}
+
+#console, #program {
+	display:block;
+}
+
+#console {
+	min-height:100px;
+	margin-bottom: 10px;
+}
+
+#console p {
+	display:block;
+	width:100%;
+	margin: 3px;
+}
+
+#console div {
+	display:inline-block;
+	width:250px;
+	outline:none;
+}
+
+#program {
+	min-height:100px;
+	white-space: pre;
+	margin-bottom: 10px;
+}
+
+.active {
+	background-color:green;
+}
+
+#controls {
+	text-align:center;
+}
