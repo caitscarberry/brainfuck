@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+		<h1>
+			brainfuck interpreter
+		</h1>
+		<main>
+			memory:
+			<table id = "data">
+				<thead></thead>
+				<tr></tr>
+			</table>
+			IO:
+			<div id = "console" contentEditable = "false">
+				<p></p>
+			</div>
+			program:<br>
+			<div id="program" contentEditable = "true"></div>
+			</div><section id = "controls">
+				<button id="run">run</button>
+				<button id="pause">pause</button>
+				<button id="resume">resume</button>
+				<button id="step">step</button>
+			</section>
+			
+			<script src="main.js"></script>
+			<script src="display.js"></script>
+			<script>
+				initDataDisplay();
+				$("#program")[0].focus();
+			</script>
+		</main>
+	</body>
+</html>
